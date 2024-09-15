@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE LAYOUT STRUCTURE</title>
+    <link rel="stylesheet" href="../css/customstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>College of Information and Computing Sciences</h1>
+        <h3>Bachelor of Science in Information System</h3>
+        <div class="container">
+            <a href="../index.html">Home</a>|
+            <a href="about.html">About</a>|
+            <a href="contactus.html">Contact Us</a>|
+            <a href="profile.html">Profile</a>|
+            <button id="submit_btn"><a href="login.html">Login</a></button>
+         </div>
+   </header>
+
+  <section>
+          <nav>
+             <ul class="navigation_menu">
+               <li><a href="heading.html">Heading</a></li>
+               <li><a href="tables.html">Tables</a></li>
+               <li><a href="htmllist.html">HTML List</a></li>
+               <li><a href="forms.html">Forms</a></li>
+               <li><a href="form.post.php">Form Post Method</a></li>
+               <li><a href="images.html">Image</a></li>
+             </ul>
+          </nav>
+     <article>
+              <h2>Table Format at HTML</h2>
+              <P align="justify">This is the Sample Table Content</P>
+         
+            <table class="table_data" border="1" style="background-color: green;">
+                    <tr style="background-color: maroon;" >
+                        <th>Product</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                   </tr>
+                 
+                    <tr>
+                       <td>Laptop</td>
+                       <td>Electronics</td>
+                       <td>$800</td>
+                    </tr>
+                   
+                    <tr>
+                       <td>Mobile Phone</td>
+                       <td>Electronics</td>
+                       <td>$700</td>
+                    </tr>
+                    
+                    <tr>
+                       <td>Ipad</td>
+                       <td>Electronics</td>
+                       <td>$900</td>
+                    </tr>
+            </table>
+    
+            <p align="justify">THIS IS FOR THE TABLE STRUCTURE WITH THEAD, AND TFOOT</p>
+         <table class="table_data" border="1">
+             <thead style="background-color: maroon;">
+                    <colgroup>
+                    <col style="width: 30%;">
+                    <col style="width:20%;">
+                    <col style="width:20%;">
+                  </colgroup>
+                    <tr>
+                       <th>Name</th>
+                       <th>Age</th>
+                       <th>Course</th>
+                    </tr>
+             </thead>
+             <tbody>
+                    <tr>
+                        <td rowspan="3">Arabella Rabe</td>
+                        <td>19</td>
+                        <td>BSIS-3B</td>
+                    </tr>
+
+                    <tr>
+                        <td>18</td>
+                        <td>BSIS-2B</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>BSIS-1B</td>
+                    </tr>
+
+                  <tfoot>
+                        <tr>
+                          <td colspan="2"><small><b>Info</b></small></td>
+                          <td><small>Info</small></td>
+                        </tr>
+                  </tfoot>
+             </tbody>
+         </table>
+                
+           <h3 align="justify"><b>Nested Tables</b></h3>
+         <table border="1">
+             <figcaption align="justify"><b>Table 1.</b>This is the sample data of a table</figcaption>
+              <thead style="background-color: maroon;">
+                <tr>
+                    <th colspan="3">Content of A Table</th>
+                </tr>
+                <tr>
+                   <th>Product</th>
+                   <th>Quantity</th>
+                   <th>Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>Channel Bags
+                          <table border="1">
+                            <tr>
+                                <th>Size</th>
+                                <th>Color</th>
+                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>Small</td>
+                                    <td>Pink</td>
+                                </tr>
+                                <tr>
+                                    <td>Medium</td>
+                                    <td>Brown</td>
+                                </tr>
+                            </tbody>
+                    
+                          </table>
+                    </td>
+                    <td>38</td>
+                    <td>$3300</td>
+                </tr>
+                <tr>
+                    <td>LV Bags</td>
+                    <td>39</td>
+                    <td>$5000</td>
+                </tr>
+                <tr>
+                    <td>Lovito Bags</td>
+                    <td>40</td>
+                    <td>$2300</td>
+                </tr>
+              </tbody>
+              <tfoot>
+    
+              </tfoot>
+          </table>
+     </article>
+   </section>
+
+   <footer>
+    <h2>W3Schools</h2>
+    <div class="footer_menu">
+        <a href="termsofuse.html">Terms of Use</a>|
+        <a href="privacypolicy.html">Privacy Policy</a>|
+        <a href="affiliate.html">Affiliate</a>|
+    </div>
+    <div>
+        <p><b> Copyright &copy; 1999-2024 by Refsnes Data.<br>
+            All rights reserved.
+        </b></p> 
+    </div>
+   </footer> 
+</body>
+</html>
+
+

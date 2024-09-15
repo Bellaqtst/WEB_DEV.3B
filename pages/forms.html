@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE LAYOUT STRUCTURE</title>
+    <link rel="stylesheet" href="../css/customstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+
+    <style>
+        .form1{
+            float: left;
+        }
+        .form2{
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>College of Information and Computing Sciences</h1>
+        <h3>Bachelor of Science in Information System</h3>
+        <div class="container">
+            <a href="../index.html">Home</a>|
+            <a href="about.html">About</a>|
+            <a href="contactus.html">Contact Us</a>|
+            <a href="profile.html">Profile</a>|
+            <button id="submit_btn"><a href="login.html">Login</a></button>
+         </div>
+   </header>
+ 
+    <section>
+          <nav>
+             <ul class="navigation_menu">
+               <li><a href="heading.html">Heading</a></li>
+               <li><a href="tables.html">Tables</a></li>
+               <li><a href="htmllist.html">HTML List</a></li>
+               <li><a href="forms.html">Forms</a></li>
+               <li><a href="form.post.php">Form Post Method</a></li>
+               <li><a href="images.html">Image</a></li>
+             </ul>
+          </nav>
+          <article>
+               <h2>HTML FORM</h2>    
+               <div class="form1"  align="justify">
+                    <form action="about.html" method="post">
+                       <label for="">firstName:</label>
+                       <input type="text" name="fname" id="fname"required><br>
+                       <label for="">LastName:</label>
+                       <input type="text" name="Lname" id="Lname"required><br>
+                 
+                       <!--<input type="checkbox" name="gender" id="gender">gender <br> -->
+                       <label for="">Date:</label>
+                       <input type="date" name="datenow" id="datenow" required><br>
+                       <label for="">Email:</label>
+                       <input type="email" name="emailadd" id="emailadd" required><br>
+                       <label for="">Button</label>
+                       <input type="button" value="Example"><br>
+                       <label for="">Color:</label>
+                       <input type="Color" value="Colorname"><br>
+                       <label for="">Upload File:</label>
+                       <input type="file" value="filedata"><br>
+                       <label for="">Date Time Data:</label>
+                       <input type="datetime" name="datetimedata" id="datetimedata"><br>
+                       <label for="">Password:</label>
+                       <input type="password" name="passwordData" id="passwordData"><br>
+                       <label for="">Selection</label>
+                       <select name="" id="">
+                        <option value="" disabled selected>--Choose a fruit--</option>
+                        <option value="">Banana</option>
+                        <option value="">Apple</option>
+                        <option value="">Watermelon</option>
+                        <option value="">Orange</option>
+                       </select>
+                       <br>
+                       <button disabled button>Disabled Button</button><br>
+                       <fieldset>
+                           <input type="radio" id='english'>
+                           <label for="english">English</label>
+                           <input type="radio" id='english'>
+                           <label for="english">Hindi</label>
+                           <input type="radio" id='english'>
+                           <label for="english">Telegu</label>
+                       </fieldset>
+                       <br>
+                       <fieldset>
+                           <textarea name="" id="" value="Please Input Your Message" placeholder="Please Input Your Message Here..."></textarea>
+                       </fieldset>
+                       <br>
+                       <label for="">Data List</label>
+                      <input list="values" name="answer">
+                      <datalist id="values">
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                      </datalist>
+                       
+                       <br><br><br>   
+                       <input type="Submit" value="Submit">
+                   </form>
+
+                   <fieldset>
+                        <legend><b>Caption</b></legend>
+                        <p>This is an example of a legend format</p>
+                   </fieldset>
+             </div>
+
+             <div class="form2"  align="justify">
+                <form action="form.post.html" method="post">
+                    <fieldset>    
+                        <legend><b>Form Input Data</b></legend>
+                        <label for="">Enter Your Name</label>
+                        <input type="text" name="name" id="name"><br>
+                        <label for="">Enter Your Age</label>
+                        <input type="number" name="age" id="age"><br>
+                        <label for="">Input Month</label>
+                        <input type="month" name="dataMonth" id="dataMonth"><br>
+                        <label for="">Week</label>
+                        <input type="week" name="dataWeek" id="dataWeek"><br>
+                        <label for="">Time</label>
+                        <input type="time" name="dataTime" id="dataTime"><br>
+                        <input type="submit" value="submit">
+                    </fieldset>
+                </form>
+             </div>
+               
+          </article>
+   </section>
+
+   <footer>
+    <h2>W3Schools</h2>
+    <div class="footer_menu">
+        <a href="termsofuse.html">Terms of Use</a>|
+        <a href="privacypolicy.html">Privacy Policy</a>|
+        <a href="affiliate.html">Affiliate</a>|
+    </div>
+    <div>
+        <p><b> Copyright &copy; 1999-2024 by Refsnes Data.<br>
+            All rights reserved.
+        </b></p> 
+    </div>
+   </footer>
+   
+</body>
+</html>
+
+
